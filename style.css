@@ -368,10 +368,10 @@ section .title::after {
   background: crimson;
 }
 .skills-content .right .html::before {
-  width: 90%;
+  width: 80%;
 }
 .skills-content .right .css::before {
-  width: 50%;
+  width: 60%;
 }
 .skills-content .right .java::before {
   width: 80%;
@@ -381,6 +381,12 @@ section .title::after {
 }
 .skills-content .right .mysql::before {
   width: 50%;
+}
+.skills-content .right .android::before {
+  width: 80%;
+}
+.skills-content .right .vb::before {
+  width: 65%;
 }
 
 /* hobby section styling */
