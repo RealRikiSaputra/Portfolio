@@ -1,3 +1,6 @@
+/* ======================================================
+   Riki Saputra — Portfolio v2
+====================================================== */
 :root {
   --bg: #0b1120;
   --panel: #121b2e;
@@ -482,6 +485,54 @@ section {
   color: var(--muted);
   font-size: 14.5px;
   margin-top: 4px;
+}
+
+.cv-card {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-top: 34px;
+  padding: 22px 24px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.cv-card-icon {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cv-card-info {
+  flex: 1;
+  min-width: 180px;
+}
+.cv-card-title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 16px;
+}
+.cv-card-desc {
+  color: var(--muted);
+  font-size: 13.5px;
+  margin-top: 3px;
+  line-height: 1.5;
+}
+.cv-card-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.btn-sm {
+  padding: 10px 18px;
+  font-size: 13.5px;
 }
 
 /* ---------- skills ---------- */
